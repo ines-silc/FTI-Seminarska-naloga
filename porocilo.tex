@@ -1,1 +1,73 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{times}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{indentfirst}
+\setlength{\parindent}{0.5cm}
 
+
+\newcommand{\novukaz}[2]{\underline {#1} \textit{#2}}
+
+\newcounter{stevec}
+
+\newenvironment{novookolje}[2]{\stepcounter{stevec} #1 #2 \thestevec}{}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+\large
+Univerza v Ljubljani\\
+\normalsize
+Fakulteta za matematiko in fiziko\\
+
+\vspace{3 cm} 
+
+\large
+Eva Deželak in Ines Šilc\\
+
+\vspace{0.5cm}
+\LARGE
+\textbf{Univerzitetne fundacije}
+
+\vspace{0.5 cm}
+\normalsize
+
+
+\vspace{1.5cm}
+\normalsize
+SEMINARSKA NALOGA PRI PREDMETU FINANČNI TRGI IN INSTITUCIJE
+
+\vspace{3cm}
+
+
+\vfill
+
+\large Ljubljana, 2020
+
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\newpage
+%\bibliography{viri}
+%\bibliographystyle{ieeetr}
+
+\end{document}
