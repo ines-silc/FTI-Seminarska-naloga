@@ -29,6 +29,8 @@ m.choropleth(
  fill_color='YlGn',
  fill_opacity=0.6,
  line_opacity=0.3,
+ nan_fill_color='white',
+ nan_fill_opacity=0.4,
  legend_name='Skupna vrednost fundacij zasebnih univerz v zvezni državi'
 )
 folium.LayerControl().add_to(m)
@@ -53,6 +55,8 @@ m.choropleth(
  fill_color='OrRd',
  fill_opacity=0.6,
  line_opacity=0.3,
+ nan_fill_color='white',
+ nan_fill_opacity=0.4,
  legend_name='Skupna vrednost fundacij javnih univerz v zvezni državi'
 )
 folium.LayerControl().add_to(m)
