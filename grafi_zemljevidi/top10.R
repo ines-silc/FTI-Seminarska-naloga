@@ -27,7 +27,7 @@ top10$Institution <- factor(top10$Institution, levels = top10$Institution[order(
 
 graf_top10 <- ggplot(data=top10, aes(x=Institution, y=Vrednosti)) + 
   geom_bar(stat = 'identity', position = 'dodge',fill = "#ffcc80") + coord_flip() + labs(title ="Univerze z največjimi fundacijami") +
-  ylab("Fundacije (v bilijon $)") + xlab("Institucija") + theme(plot.title = element_text(hjust = 0.5))
+  ylab("Fundacije (v bilijon USD)") + xlab("Institucija") + theme(plot.title = element_text(hjust = 0.5))
 
 
 print(graf_top10)
